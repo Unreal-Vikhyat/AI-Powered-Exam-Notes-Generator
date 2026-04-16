@@ -1,26 +1,105 @@
-# React + Vite
+# 🚀 AI-Powered Exam Notes Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack AI SaaS platform that generates **exam-oriented notes, summaries, diagrams, and important questions in seconds** using Artificial Intelligence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Overview
 
-## React Compiler
+This project is designed to solve the problem of inefficient exam preparation by providing **structured, concise, and AI-generated study material**. It helps students save time, improve revision, and focus on important concepts.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🧠 AI-based Notes Generation (Gemini AI)
+* 📊 Diagrams, Charts & Graphs generation
+* ⚡ One-click Revision Mode (short notes)
+* 📚 Subject-wise & class-wise important questions
+* 💳 Credit-based usage system
+* 💰 Stripe payment integration
+* 🔐 Secure Authentication (JWT + Google OAuth)
+* 📜 Download Notes as PDF
+* 🕘 User History tracking
+
+---
+
+## 🛠 Tech Stack
+
+### 🔹 Frontend
+
+* React.js (Vite)
+* Tailwind CSS
+* Redux
+
+### 🔹 Backend
+
+* Node.js
+* Express.js
+
+### 🔹 Database
+
+* MongoDB
+
+### 🔹 APIs & Services
+
+* Gemini AI (Content Generation)
+* Stripe (Payments)
+* Google OAuth (Authentication)
+
+### 🔹 Deployment
+
+* Render (Frontend + Backend)
 
 
-google auth key =681267289050-jbe9hakualrhpqvb59f9p8qcg2qokjsv.apps.googleusercontent.com
+---
 
+## 🔄 Project Flow
 
-pass db-ExamNotes.AI
+1. User logs in (JWT / Google OAuth)
+2. User enters topic
+3. Request sent to backend API
+4. Backend calls Gemini AI
+5. AI generates structured notes
+6. Credits deducted
+7. Notes displayed + saved in DB
 
-username db-Vikhyat_ExamNotesAI
+---
 
-admin pass-ExamNotes.AI
+## 🧠 Key Learnings
+
+* Building real-world AI SaaS applications
+* Designing credit-based monetization systems
+* Integrating third-party APIs (Gemini, Stripe, OAuth)
+* Handling authentication and secure APIs
+* Deploying full-stack apps on cloud
+
+---
+
+## ⚠️ Limitations
+
+* Monolithic architecture (not microservices)
+* Limited scalability on free-tier hosting
+* No automated test coverage (planned)
+
+---
+
+## 🚀 Future Improvements
+
+* Add unit & integration testing (Jest)
+* Convert to microservices architecture
+* Improve AI prompt customization
+* Add voice input for notes generation
+* Enhance UI/UX with personalization
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Vikhyat Sharma**
+
+---
+
+## ⭐ Show Your Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
